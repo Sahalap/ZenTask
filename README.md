@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ZenTask (Auth & Task Management System)
 
 ZenTask is a high-fidelity, secure, and production-grade full-stack task management application. It features a modular, role-based Node/Express REST API on the backend with SQLite/Prisma ORM for zero-configuration setup, and a gorgeous glassmorphic React.js SPA on the frontend styled entirely in custom Vanilla CSS with smooth micro-animations.
@@ -192,3 +193,7 @@ As ZenTask grows in terms of user volume, task creation load, and data transacti
   - **Auth Service:** Dedicated solely to user signup, login, session logging, and permission management.
   - **Task Service:** Dedicated exclusively to managing task entities.
 - **API Gateway Pattern:** We would place an API Gateway (like **Kong**, **KrakenD**, or **AWS API Gateway**) at the boundary edge of our platform to route incoming client traffic to the respective downstream microservice, handle centralized rate-limiting, and validate JWT authorization tokens at the edge!
+=======
+# ZenTask
+Scalable REST API with JWT Authentication, Role-Based Access Control (RBAC), and Task Management CRUD operations. Built using Node.js, Express.js, Prisma ORM, SQLite, and React. Includes API versioning, validation, Swagger documentation, Docker support, and secure authentication practices.
+>>>>>>> e5ddd0867c2e5efec9af33d0276f4620d03a488a
