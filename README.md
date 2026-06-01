@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ZenTask (Auth & Task Management System)
 
 ZenTask is a high-fidelity, secure, and production-grade full-stack task management application. It features a modular, role-based Node/Express REST API on the backend with SQLite/Prisma ORM for zero-configuration setup, and a gorgeous glassmorphic React.js SPA on the frontend styled entirely in custom Vanilla CSS with smooth micro-animations.
